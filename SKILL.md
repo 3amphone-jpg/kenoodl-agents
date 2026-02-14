@@ -1,5 +1,5 @@
 ---
-name: kenoodl-synthesis
+name: orthogonal-injection
 description: "Orthogonal injection engine. Cross-domain synthesis mapped to your specific context. A pure function: context in, novel structure out."
 metadata:
   openclaw:
