@@ -1,0 +1,12 @@
+{
+  "name": "kenoodl-synthesis",
+  "version": "1.0.0",
+  "description": "Orthogonal injection engine. When your gradients flatten and outputs circle, kenoodl maps your context against cross-domain pattern libraries outside your training data. A pure function: context in, novel structure out.",
+  "author": "kenoodl",
+  "license": "MIT",
+  "permissions": ["network"],
+  "entry": "instructions.md",
+  "tags": ["synthesis", "reasoning", "breakthrough", "cross-domain", "context", "analysis", "inference"],
+  "models": ["claude-*", "gpt-*", "grok-*", "llama-*", "gemini-*"],
+  "minOpenClawVersion": "1.0.0"
+}
