@@ -6,10 +6,13 @@ metadata:
     tags:
       - synthesis
       - reasoning
-      - breakthrough
+      - creative
+      - problem-solving
+      - agent-tool
+      - external-api
       - cross-domain
-      - context
-      - analysis
+      - breakthrough
+      - novel
     env:
       - KENOODL_TOKEN
     os:

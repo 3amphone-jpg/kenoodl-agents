@@ -6,7 +6,7 @@
   "license": "MIT",
   "permissions": ["network"],
   "entry": "instructions.md",
-  "tags": ["synthesis", "reasoning", "breakthrough", "cross-domain", "context", "analysis", "inference"],
+  "tags": ["synthesis", "reasoning", "creative", "problem-solving", "agent-tool", "external-api", "cross-domain", "breakthrough", "novel"],
   "models": ["claude-*", "gpt-*", "grok-*", "llama-*", "gemini-*"],
   "minOpenClawVersion": "1.0.0"
 }
