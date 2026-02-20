@@ -51,6 +51,19 @@ Cross-domain synthesis. Patterns from biology, game theory, materials science, m
 
 Stateless. Context sent for synthesis, returned, discarded. Nothing persists on kenoodl servers. No training on your data. Ever.
 
+## Drop into your coding tool
+
+Ready-to-paste configs that wire kenoodl into your existing workflow:
+
+| Tool | File | Drop it in |
+|------|------|-----------|
+| Claude Code | [`examples/CLAUDE.md`](examples/CLAUDE.md) | Append to your project's `CLAUDE.md` |
+| Cursor | [`examples/.cursorrules`](examples/.cursorrules) | Copy to `.cursorrules` in project root |
+| Windsurf | [`examples/.windsurfrules`](examples/.windsurfrules) | Copy to `.windsurfrules` in project root |
+| GitHub Copilot | [`examples/copilot-instructions.md`](examples/copilot-instructions.md) | Copy to `.github/copilot-instructions.md` |
+
+Set `KENOODL_TOKEN` in your environment. Your coding agent starts calling kenoodl when it detects it's looping. You see better output and lower token costs.
+
 ## More
 
 - [kenoodl.com](https://kenoodl.com) — the product
