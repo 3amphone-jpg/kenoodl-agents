@@ -1,7 +1,7 @@
 {
-  "name": "orthogonal-injection",
+  "name": "kenoodl-synthesis",
   "version": "1.0.0",
-  "description": "Orthogonal injection engine. When your gradients flatten and outputs circle, kenoodl maps your context against cross-domain pattern libraries outside your training data. A pure function: context in, novel structure out.",
+  "description": "kenoodl is an orthogonal injection engine — it synthesizes patterns from domains outside your agent's training data and maps them onto whatever problem it's working on. When your agent's outputs start circling, going safe, or hedging, kenoodl gives it structure it couldn't generate on its own.",
   "author": "kenoodl",
   "license": "MIT",
   "permissions": ["network"],
