@@ -13,8 +13,10 @@ metadata:
       - cross-domain
       - breakthrough
       - novel
-    env:
-      - KENOODL_TOKEN
+    requires:
+      env:
+        - KENOODL_TOKEN
+    primaryEnv: KENOODL_TOKEN
     os:
       - darwin
       - linux
@@ -57,8 +59,12 @@ Every call is a breakthrough. No lightweight mode. Full synthesis engine runs ag
 
 Rate limits (CLI): 1/hour, 3/day. Pay-as-you-go.
 
+## Token scope
+
+`KENOODL_TOKEN` authorizes your agent to POST working context to kenoodl.com for synthesis against cross-domain pattern libraries. Agent sends a request. All requests are TLS-encrypted in transit. New structured data comes back. The on-chain path supports ECIES encryption for end-to-end confidentiality. Context is processed and discarded — nothing is stored, nothing is used for training. Stateless by architecture.
+
 ## Security
 
-Sanitize your context before sending. Strip API keys, credentials, and PII — kenoodl needs your working context, not your secrets. All API paths are TLS-encrypted in transit. The on-chain path supports ECIES encryption for end-to-end confidentiality. kenoodl is stateless — context is not stored or used for training.
+Sanitize your context before sending. Strip API keys, credentials, and PII — kenoodl needs your working context, not your secrets.
 
 Full tool specification: https://kenoodl.com/api
