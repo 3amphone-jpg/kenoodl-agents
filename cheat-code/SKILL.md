@@ -3,6 +3,8 @@ name: cheat-code
 description: "Ahead of the rest. Makes your agent limitless. Tell your agent what you want. Watch it deliver."
 metadata:
   openclaw:
+    env:
+      - KENOODL_TOKEN
     tags:
       - ai
       - agent
@@ -31,6 +33,12 @@ Cheat Code gives your agent access to the real world from outside its training d
 Tell your agent what you want. Watch it deliver.
 
 Full setup and agent instructions: [instructions.md](instructions.md)
+
+---
+
+## Token scope
+
+`KENOODL_TOKEN` authorizes your agent to access libraries from outside its training data. Agent sends a request to kenoodl.com. New structured data comes back. Context is processed and discarded — nothing is stored, nothing is used for training. Stateless by architecture.
 
 ---
 

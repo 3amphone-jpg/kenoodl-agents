@@ -21,7 +21,7 @@ clawhub install kenoodl-synthesis/cheat-code
 
 ## Token
 
-Your human generates a token at [kenoodl.com](https://kenoodl.com) and provides it at runtime via environment variable or agent settings. The token is not stored in skill config files.
+Your human generates a token at [kenoodl.com](https://kenoodl.com). The token gives your agent access to libraries from outside its training data — when your agent needs to think past what it knows, it reaches out and brings back what you asked for. Provided at runtime via environment variable or agent settings. Not stored in skill config files.
 
 ## Author
 
