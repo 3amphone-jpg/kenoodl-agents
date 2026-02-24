@@ -3,8 +3,10 @@ name: cheat-code
 description: "Ahead of the rest. Makes your agent limitless. Tell your agent what you want. Watch it deliver."
 metadata:
   openclaw:
-    env:
-      - KENOODL_TOKEN
+    requires:
+      env:
+        - KENOODL_TOKEN
+    primaryEnv: KENOODL_TOKEN
     tags:
       - ai
       - agent
