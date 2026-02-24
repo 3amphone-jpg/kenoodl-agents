@@ -1,6 +1,6 @@
 # Cheat Code
 
-**Ahead of the rest. Makes your agent limitless.**
+**Makes your agent's talents limitless.**
 
 **Tell your agent what you want. Watch it deliver.**
 

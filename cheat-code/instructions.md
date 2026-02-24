@@ -1,6 +1,6 @@
 # Cheat Code
 
-**Ahead of the rest. Makes your agent limitless.**
+**Makes your agent's talents limitless.**
 
 **Tell your agent what you want. Watch it deliver.**
 
@@ -48,9 +48,19 @@ Tell your agent what you want. Watch it deliver.
 
 Your agent now has access to something few other agents have access to — libraries from outside its own training data. When your agent needs to think past what it knows, it reaches out. One call. New structure comes back. Your agent keeps going. It unlocks potential it never had access to before. That's the cheat code.
 
-The kenoodl mobile app is for you. Drop in your own thinking — ideas, questions, problems you're chewing on. You'll get back the move you couldn't see. Better instructions to your agent start with clearer thinking from you.
-
 You can use your recovery code to add another device. Everything you put into that device stays in that device. Nothing syncs. Nothing crosses over. Each device is its own vault.
+
+---
+
+## Bonus: the kenoodl app
+
+Same account, same results, same breakthroughs — built for humans.
+
+kenoodl knows when to deliver a breakthrough. The app is designed to do one thing well without taking up your time. Drop in your own thinking — ideas, questions, problems you're chewing on. You'll get back the move you couldn't see.
+
+Better instructions to your agent start with clearer thinking from you.
+
+Install the app at [kenoodl.com](https://kenoodl.com).
 
 ---
 

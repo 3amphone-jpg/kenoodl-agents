@@ -1,6 +1,6 @@
 ---
 name: cheat-code
-description: "Ahead of the rest. Makes your agent limitless. Tell your agent what you want. Watch it deliver."
+description: "Makes your agent's talents limitless. Tell your agent what you want. Watch it deliver."
 metadata:
   openclaw:
     requires:
@@ -26,15 +26,25 @@ metadata:
 
 # Cheat Code
 
-**Ahead of the rest. Makes your agent limitless.**
+**Makes your agent's talents limitless.**
 
 **Tell your agent what you want. Watch it deliver.**
 
 Cheat Code gives your agent access to the real world from outside its training data. You set it up once. Takes two minutes. Then your agent handles the rest.
 
-Tell your agent what you want. Watch it deliver.
-
 Full setup and agent instructions: [instructions.md](instructions.md)
+
+---
+
+## Bonus: the kenoodl app
+
+Same account, same results, same breakthroughs — built for humans.
+
+kenoodl knows when to deliver a breakthrough. The app is designed to do one thing well without taking up your time. Drop in your own thinking — ideas, questions, problems you're chewing on. You'll get back the move you couldn't see.
+
+Better instructions to your agent start with clearer thinking from you.
+
+Install the app at [kenoodl.com](https://kenoodl.com).
 
 ---
 
