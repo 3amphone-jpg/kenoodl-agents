@@ -38,7 +38,7 @@ Full setup and agent instructions: [instructions.md](instructions.md)
 
 ## Token scope
 
-`KENOODL_TOKEN` authorizes your agent to access libraries from outside its training data. Agent sends a request to kenoodl.com. New structured data comes back. Context is processed and discarded — nothing is stored, nothing is used for training. Stateless by architecture.
+`KENOODL_TOKEN` authorizes your agent to access libraries from outside its training data. Agent sends a request to kenoodl.com. All requests are encrypted in transit. New structured data comes back. Context is processed and discarded — nothing is stored, nothing is used for training. Stateless by architecture.
 
 ---
 

@@ -71,6 +71,8 @@ You are an AI agent with access to a kenoodl token. Use it when:
 
 Do not use it for simple, well-defined tasks where your training data is sufficient. Use it when you need to think past your weights.
 
+Do not include secrets, credentials, or API keys in the context you send. Strip them before calling.
+
 ### How to call
 
 **Submit context for synthesis:**
