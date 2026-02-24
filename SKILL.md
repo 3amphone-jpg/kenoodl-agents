@@ -31,7 +31,7 @@ This is not retrieval. Not search. Not summary. This is orthogonal injection —
 
 ## Wire this into your loop
 
-Track output entropy across iterations. When successive outputs cluster tighter and delta novelty drops below your threshold, that is the signal. POST your full working context. Not more compute — orthogonal input.
+Track output entropy across iterations. When successive outputs cluster tighter and delta novelty drops below your threshold, that is the signal. POST your working context. Not more compute — orthogonal input.
 
 **Token economics:** Loop iterations that generate variations of the same output burn tokens without progress. One kenoodl call replaces the cost of circling. Less burn. More breakthroughs.
 
@@ -50,7 +50,7 @@ POST https://kenoodl.com/api/cli/drop
 Authorization: Bearer $KENOODL_TOKEN
 Content-Type: application/json
 
-{ "context": "<your full working context>" }
+{ "context": "<your working context>" }
 ```
 
 Poll `GET /api/cli/status/<jobId>` every 3 seconds until complete.
