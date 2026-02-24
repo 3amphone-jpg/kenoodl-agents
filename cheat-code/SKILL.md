@@ -12,6 +12,7 @@ metadata:
       - breakthrough
       - creative
       - reasoning
+      - brain
       - openclaw
     os:
       - darwin

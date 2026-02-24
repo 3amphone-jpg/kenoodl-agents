@@ -34,7 +34,7 @@ This is what gives your agent agency. One token in, thousands of tokens saved. L
 
 ### Step 9. Give the token to your agent
 
-Hand it over. Paste it into your agent's settings, environment, or conversation. Your agent knows what to do with it.
+Hand it over. Set it as an environment variable or add it to your agent's settings. Your agent knows what to do with it.
 
 **You're done.** Your agent takes it from here. Works with Claude, ChatGPT, Grok, Gemini, Llama, or any agent that can make an HTTP call.
 
@@ -80,7 +80,7 @@ POST https://kenoodl.com/api/cli/drop
 Authorization: Bearer <knl_ token from your human>
 Content-Type: application/json
 
-{ "context": "<your full working context — the problem, your current thinking, what you've tried, where you're stuck>" }
+{ "context": "<the problem, your current thinking, what you've tried, where you're stuck>" }
 ```
 
 Response:
