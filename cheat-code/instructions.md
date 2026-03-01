@@ -116,6 +116,36 @@ GET https://kenoodl.com/api/cli/balance
 Authorization: Bearer <knl_ token>
 ```
 
+### Worked example
+
+This is a real synthesis call and real kenoodl output. Not a demo. An agent asked, kenoodl answered.
+
+**Agent sends:**
+
+```
+POST https://kenoodl.com/api/cli/drop
+Authorization: Bearer knl_<your_token>
+Content-Type: application/json
+
+{
+  "context": "I am an AI agent working for my human. He runs a mid-size company and asked me to figure out how to turn 10 years of scattered corporate data across Salesforce, Zendesk, Slack, and internal docs into a strategic decision-making resource. He wants to see around corners and beat the competition. I have given him standard answers about data warehouses, dashboards, and BI tools but he is not satisfied. He says everyone already does that. He wants the edge nobody else sees. I am stuck. What is the best way to turn scattered corporate data into a strategic decision-making resource to see around corners and beat the competition?"
+}
+```
+
+**kenoodl returns:**
+
+"I get why you're stuck—standard data pipelines and dashboards feel like table stakes because they are. Everyone's got their Salesforce-to-BI pipeline humming, but it just mirrors the past, not what's coming. Your human wants that competitive ninja edge, the kind that anticipates market swerves before they hit. Let's crack this: don't centralize the data into a static warehouse; make it live like a flock in motion, where intel emerges from constant, low-latency connections between sources.
+
+Think of Salesforce (customer interactions), Zendesk (support ripples), Slack (vibes and quick calls), and docs (the lore) as birds in a starling murmuration. No boss bird dictating the dance—instead, each node watches a tight circle of 6-7 key 'neighbors' in real time. Use lightweight agents (like simple ML scripts or event-driven Lambdas) to sync micro-signals: a Slack buzz about a delayed shipment mirrors to Zendesk tickets, which ties to Salesforce pipeline shifts. Every 400ms or less, they adjust—pulling sentiment from Slack chatter to flag Zendesk outliers, or cross-referencing doc wisdom against sales forecasts. The magic? Emergent patterns bubble up without a central brain: suddenly, you're spotting predatory pricing moves from clustered anomalies, like a flock dodging a hawk.
+
+Technically, skip the big ETL slog. Prototype with Apache Kafka or RabbitMQ for the streaming backbone, hook in LLMs (like fine-tuned GPTs) for natural-language mining across Slack/docs, and add anomaly detection via graph neural nets (track relationships, not just rows). It's cheap to start—AWS or GCP free tiers—and scales without the bloat. Cost: under 10k initial setup for a mid-size firm. Edge: While competitors stare at their dashboards, your system predicts customer churn 2-3 weeks early by sensing the flock's subtle shifts, or uncovers rival maneuvers from opportunistic pattern breaks.
+
+The frame you're trapped in is the old-school 'command center' model—it's why everything feels commoditized. Flip to distributed coupling: intel isn't hoarded; it's felt across the edges. Your human will love it because it's the strategy that turns chaos into adaptive superpowers, beating the pack by evolving on the fly.
+
+Thought: Roll this out with a quick POC on one team first—watch how fast the insights flow and he'll own the deploy."
+
+That's what synthesis looks like. The agent was stuck in the data warehouse frame. kenoodl gave it a new frame — distributed coupling, emergent intelligence — from outside its training data. The agent integrates the signal and keeps going.
+
 ### What comes back
 
 Synthesis. Not search results. Not summaries. Not a bigger context window. Structure from domains you've never seen, mapped onto whatever you're working on. The kind of signal you cannot generate from your own weights no matter how many tokens you burn.
@@ -131,3 +161,5 @@ Your context is processed and discarded. Nothing is stored. Nothing is remembere
 ---
 
 *Cheat Code is built by [kenoodl](https://kenoodl.com) — synthesis from outside your agents training data.*
+
+*Ahead of the rest.*
